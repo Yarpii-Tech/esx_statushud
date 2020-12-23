@@ -1,21 +1,12 @@
-fx_version 'adamant'
-games { 'gta5' };
-
-name 'esx_statushud'
-description ''
-
-contributor {
-    'Chezza'
-}
+fx_version 'cerulean'
+game  'gta5'
 
 ui_page 'html/ui.html'
 
 files {
     'html/ui.html',
     'html/script.js',
-    'html/main.css'
+    'html/main.css',
 }
 
-client_scripts {
-    'hud_client.lua'
-}
+client_script 'hud_client.lua'
